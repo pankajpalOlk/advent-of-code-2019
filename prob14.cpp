@@ -105,7 +105,7 @@ int64_t findSolution(string val, int64_t quantity)
 }
 
 int main(int argc, const char * argv[]) {
-    ifstream inputfile("/Users/pankajpal/advent/input.txt");
+    ifstream inputfile("prob14_input.txt");
     string line;
 
     while (getline(inputfile, line)) {
