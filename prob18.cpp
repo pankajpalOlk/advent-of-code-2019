@@ -196,7 +196,7 @@ void Problem2(std::vector<std::vector<char>>& grid, const Point& startPoint)
 
 int main()
 {
-    std::fstream in("/Users/pankajpal/advent/input.txt", std::fstream::in);
+    std::fstream in("prob18_input.txt", std::fstream::in);
     std::vector<std::vector<char>> grid;
     Point startPoint;
 
