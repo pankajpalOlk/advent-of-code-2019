@@ -71,7 +71,7 @@ int getTransferLength(const map<string, string>& tree)
 
 
 int main(int argc, const char * argv[]) {
-    ifstream inputfile("/Users/pankajpal/advent/input.txt");
+    ifstream inputfile("prob6_input.txt");
     string line;
     map<string, string> tree;
 
