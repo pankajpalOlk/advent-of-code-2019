@@ -83,7 +83,7 @@ int least_count_zeros(const string& line)
 }
 
 int main(int argc, const char * argv[]) {
-    ifstream inputfile("/Users/pankajpal/advent/input.txt");
+    ifstream inputfile("prob8_input.txt");
     string line;
     getline(inputfile, line);
 
