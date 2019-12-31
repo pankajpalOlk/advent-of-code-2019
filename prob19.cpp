@@ -6,7 +6,7 @@
 //  Copyright © 2019 pankaj pal. All rights reserved.
 //
 
-#include "/Users/pankajpal/advent/intcode.h"
+#include "intcode.h"
 #include <iostream>
 #include <vector>
 #include <map>
