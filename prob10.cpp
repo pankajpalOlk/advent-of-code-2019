@@ -103,7 +103,7 @@ int problem1(const vector<pair<int, int>>& asteroids, int& stationX, int& statio
 }
 
 int main(int argc, const char * argv[]) {
-    ifstream inputfile("/Users/pankajpal/advent/input.txt");
+    ifstream inputfile("prob10_input.txt");
     string line;
     int y = 0;
     vector<pair<int, int>> asteroids;
