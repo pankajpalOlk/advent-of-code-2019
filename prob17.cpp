@@ -11,7 +11,7 @@
 #include <map>
 #include <sstream>
 
-#include "/Users/pankajpal/advent/intcode.h"
+#include "intcode.h"
 
 using namespace std;
 
