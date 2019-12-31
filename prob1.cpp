@@ -21,7 +21,9 @@ int fuel(int input)
     return sum;
 }
 
-
+// Run it using the following command: 
+// g++ prob1.cpp
+// cat prob1_input.txt | ./a.out
 int main() {
     int value = 0;
     int sum = 0;
