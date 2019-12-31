@@ -147,7 +147,7 @@ int main()
 {
     string line;
     vector<Move> moves;
-    fstream in("/Users/pankajpal/advent/prob22_input.txt");
+    fstream in("prob22_input.txt");
 
     while (getline(in, line))
     {
