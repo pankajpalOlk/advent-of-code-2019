@@ -304,7 +304,7 @@ void Problem2(const std::vector<std::vector<char>>& grid, std::map<std::string, 
 
 int main()
 {
-    std::fstream in("/Users/pankajpal/advent/prob20_input.txt", std::fstream::in);
+    std::fstream in("prob20_input.txt", std::fstream::in);
     std::vector<std::vector<char>> grid;
     std::map<std::string, std::vector<Point>> portals;
 
