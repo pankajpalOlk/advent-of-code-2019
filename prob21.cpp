@@ -6,7 +6,7 @@
 //  Copyright © 2019 pankaj pal. All rights reserved.
 //
 
-#include "/Users/pankajpal/advent/intcode.h"
+#include "intcode.h"
 #include <iostream>
 #include <fstream>
 #include <vector>
@@ -90,7 +90,7 @@ void Problem2(const vector<long>& vect)
 int main()
 {
     vector<long> vect;
-    fstream in("/Users/pankajpal/advent/prob21_input.txt");
+    fstream in("prob21_input.txt");
 
     long number = 0;
     char ignore;
