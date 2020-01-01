@@ -223,11 +223,12 @@ void Problem2(const vector<long>& vect)
             computers[0].setInput(nat_inp1);
             computers[0].setInput(nat_inp2);
 
-            if (!history.insert(nat_inp2).second)
-            {
+            if (history.find(nat_inp2) != history.end()) {
                 cout << "Problem2: " << nat_inp2 << endl;
                 return;
             }
+
+            history.insert(nat_inp2);
         }
     }
 }
