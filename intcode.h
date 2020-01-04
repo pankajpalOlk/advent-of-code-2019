@@ -68,6 +68,15 @@ public:
                     i += 4;
                     break;
                 case 3:
+//                    if (input.empty()) {
+//                        char str[256];
+//                        cin.getline(str, 256);
+//
+//                        for(int i=0; str[i]; i++){
+//                            input.push_back((long)str[i]);
+//                        }
+//                        input.push_back(10);
+//                    }
                     vect[x] = input[0];
                     i += 2;
                     input.erase(input.begin());
